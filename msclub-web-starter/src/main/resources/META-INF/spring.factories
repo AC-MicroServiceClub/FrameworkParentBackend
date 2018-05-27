@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.msclub.base.rest.RestTemplateAutoConfiguration,\
+com.msclub.base.rest.HttpClientAutoConfiguration
