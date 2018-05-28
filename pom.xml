@@ -5,8 +5,8 @@
 	<modules>
 		<module>msclub-exception-starter</module>
 		<module>msclub-web-starter</module>
+		<module>msclub-swagger-starter</module>
 		<module>msclub-starter-parent</module>
-		<module>msclub-swagger</module>
 	</modules>
 
 	<parent>
@@ -30,7 +30,7 @@
 		<msclub-exception-starter-version>0.0.1</msclub-exception-starter-version>
 		<msclub-web-starter-version>0.0.1</msclub-web-starter-version>
 		<msclub-starter-parent-version>0.0.1</msclub-starter-parent-version>
-
+		<msclub-swagger-starter-version>0.0.1</msclub-swagger-starter-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
@@ -45,7 +45,7 @@
 		<wiremock.version>2.1.12</wiremock.version>
 		<maven.javadoc.failOnError>false</maven.javadoc.failOnError>
 		<guava.version>18.0</guava.version>
-		<springfox-version>2.4.0</springfox-version>
+		<springfox-version>2.8.0</springfox-version>
 		<logstash-logback-version>4.11</logstash-logback-version>
 		<commons-lang-version>2.6</commons-lang-version>
 		<javax.inject.version>1</javax.inject.version>
@@ -68,7 +68,7 @@
 				<artifactId>springfox-swagger-ui</artifactId>
 				<version>${springfox-version}</version>
 			</dependency>
-
+			
 			<dependency>
 				<groupId>io.github.robwin</groupId>
 				<artifactId>assertj-swagger</artifactId>
@@ -149,6 +149,11 @@
 				<groupId>com.msclub.base</groupId>
 				<artifactId>msclub-starter-parent</artifactId>
 				<version>${msclub-starter-parent-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.msclub.base</groupId>
+				<artifactId>msclub-swagger-starter</artifactId>
+				<version>${msclub-swagger-starter-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
