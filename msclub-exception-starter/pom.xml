@@ -6,8 +6,8 @@
 	<artifactId>msclub-exception-starter</artifactId>
 
 	<parent>
-        <artifactId>msclub-parent</artifactId>
         <groupId>com.msclub.base</groupId>
+        <artifactId>msclub-parent</artifactId>
         <version>0.0.1</version>
     </parent>
 
