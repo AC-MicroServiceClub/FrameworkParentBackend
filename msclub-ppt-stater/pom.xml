@@ -14,7 +14,7 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>com.msclub.base</groupId>
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>msclub-ppt-stater</artifactId>
 		</dependency>
 		<dependency>
