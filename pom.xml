@@ -5,6 +5,7 @@
 		<module>msclub-exception-starter</module>
 		<module>msclub-web-starter</module>
 		<module>msclub-swagger-starter</module>
+		<module>msclub-cors-starter</module>
 		<module>msclub-starter-parent</module>
         <module>msclub-file-starter</module>
   </modules>
