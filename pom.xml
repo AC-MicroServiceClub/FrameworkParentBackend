@@ -6,8 +6,10 @@
 		<module>msclub-web-starter</module>
 		<module>msclub-swagger-starter</module>
 		<module>msclub-cors-starter</module>
+		<module>msclub-file-starter</module>
+		<module>msclub-ppt-starter</module>
+		<module>msclub-video-starter</module>
 		<module>msclub-starter-parent</module>
-        <module>msclub-file-starter</module>
   </modules>
 
 	<parent>
@@ -32,6 +34,11 @@
 		<msclub-web-starter-version>0.0.1</msclub-web-starter-version>
 		<msclub-starter-parent-version>0.0.1</msclub-starter-parent-version>
 		<msclub-swagger-starter-version>0.0.1</msclub-swagger-starter-version>
+		<msclub-cors-starter-version>0.0.1</msclub-cors-starter-version>
+		<msclub-file-starter-version>0.0.1</msclub-file-starter-version>
+		<msclub-ppt-starter-version>0.0.1</msclub-ppt-starter-version>
+		<msclub-video-starter-version>0.0.1</msclub-video-starter-version>
+		<msclub-log-starter-version>0.0.1</msclub-log-starter-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
@@ -155,6 +162,26 @@
 				<groupId>com.msclub.base</groupId>
 				<artifactId>msclub-swagger-starter</artifactId>
 				<version>${msclub-swagger-starter-version}</version>
+			</dependency>
+		   <dependency>
+				<groupId>com.msclub.base</groupId>
+				<artifactId>msclub-cors-starter</artifactId>
+				<version>${msclub-cors-starter-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.msclub.base</groupId>
+				<artifactId>msclub-ppt-starter</artifactId>
+				<version>${msclub-ppt-starter-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.msclub.base</groupId>
+				<artifactId>msclub-video-starter</artifactId>
+				<version>${msclub-video-starter-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.msclub.base</groupId>
+				<artifactId>msclub-file-starter</artifactId>
+				<version>${msclub-file-starter-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

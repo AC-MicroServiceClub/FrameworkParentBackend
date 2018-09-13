@@ -10,5 +10,6 @@
 
 	<artifactId>msclub-starter-parent</artifactId>
 	<packaging>pom</packaging>
+	
 
 </project>
